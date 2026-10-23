@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ===== SEO METADATA ===== -->
+  <title>Rishiverse | Rishi Bhatia – B.Tech CSE (Cyber Security) Student &amp; Developer</title>
+  <meta name="description" content="Rishiverse is the personal portfolio of Rishi Bhatia, a B.Tech Computer Science (Cyber Security) student building web projects and learning DevOps.">
+  <meta name="author" content="Rishi Bhatia">
+  <meta name="theme-color" content="#0a0916">
+
+  <!-- Open Graph / social sharing. Add an og:image URL once you host a preview image. -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rishiverse | Rishi Bhatia">
+  <meta property="og:description" content="Portfolio of Rishi Bhatia: projects, skills, education and experience.">
+  <meta name="twitter:card" content="summary">
+
+  <!-- Inline SVG favicon so no extra file is needed -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%238b5cf6'/%3E%3Cstop offset='1' stop-color='%235b8cff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='%230a0916'/%3E%3Ccircle cx='32' cy='32' r='14' fill='none' stroke='url(%23g)' stroke-width='5'/%3E%3Ccircle cx='46' cy='18' r='5' fill='url(%23g)'/%3E%3C/svg%3E">
+
+  <!-- Fonts: free Google Fonts. If you are offline, the system-font fallbacks in style.css are used. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Structured data helps search engines understand the page -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Rishi Bhatia",
+    "email": "mailto:rishi208712@gmail.com",
+    "jobTitle": "B.Tech Computer Science (Cyber Security) student"
+  }
+  </script>
+</head>
+
+<body>
+  <!-- Lets keyboard users jump past the navigation -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== HEADER / NAVIGATION ===== -->
+  <header class="site-header" id="top">
+    <div class="wrap header-inner">
+      <a class="logo" href="#hero" aria-label="Rishiverse, back to top">
+        <span class="logo-mark" aria-hidden="true"></span>
+        Rishiverse
+      </a>
+
+      <!-- Mobile menu button: script.js toggles aria-expanded and the menu -->
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <nav id="primary-nav" class="nav" aria-label="Primary">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a class="nav-cta" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== 1. HERO ===== -->
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <!-- Decorative drifting constellation, drawn by script.js -->
+      <canvas id="constellation" aria-hidden="true"></canvas>
+
+      <div class="wrap hero-inner">
+        <div class="hero-content">
+          <p class="status"><span class="status-dot" aria-hidden="true"></span>Open to internships</p>
+          <h1 id="hero-title">Hi, I’m Rishi Bhatia.</h1>
+          <p class="hero-lead">
+            I’m a Computer Science (Cyber Security) student who builds web projects
+            and is learning DevOps. I like turning ideas into things that work.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View projects</a>
+            <a class="btn btn-ghost" href="#contact">Contact me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 2. ABOUT ===== -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="wrap about-grid">
+        <h2 id="about-title">About me</h2>
+        <div class="about-text">
+          <!-- EDIT: rewrite these in your own words whenever you like -->
+          <p>
+            I’m a third-year B.Tech student in Computer Science and Engineering
+            (Cyber Security) at Greater Noida Institute of Technology. I enjoy
+            building web applications and understanding how secure, reliable
+            software is put together.
+          </p>
+          <p>
+            Away from the keyboard, I’m comfortable on stage. I have anchored
+            events and enjoy the communication and coordination side of tech.
+          </p>
+          <p>
+            I’m looking for internships across software engineering, sales,
+            communications, event coordination and operations, to gain
+            hands-on corporate experience.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 3. TECHNICAL SKILLS ===== -->
+    <section class="section section-alt" id="skills" aria-labelledby="skills-title">
+      <div class="wrap">
+        <h2 id="skills-title">Technical skills</h2>
+        <p class="section-lead">The tools I work with, grouped by what I use them for.</p>
+
+        <!-- Rows instead of identical cards: group name on the left, tools on the right -->
+        <div class="skill-rows">
+          <div class="skill-row">
+            <h3>Programming</h3>
+            <ul class="chips">
+              <li>Python</li><li>Java</li><li>SQL</li>
+            </ul>
+          </div>
+          <div class="skill-row">
+            <h3>Web</h3>
+            <ul class="chips">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li><li>React</li>
+            </ul>
+          </div>
+          <div class="skill-row">
+            <h3>Data and tools</h3>
+            <ul class="chips">
+              <li>MySQL</li><li>Git &amp; GitHub</li><li>IntelliJ IDEA</li>
+            </ul>
+          </div>
+          <div class="skill-row">
+            <h3>Security</h3>
+            <ul class="chips">
+              <li>Identity &amp; access management basics</li>
+            </ul>
+          </div>
+          <div class="skill-row">
+            <h3>Learning now</h3>
+            <ul class="chips">
+              <li>DevOps</li>
+            </ul>
+          </div>
+          <div class="skill-row">
+            <h3>Office tools</h3>
+            <ul class="chips">
+              <li>MS Excel</li><li>MS Word</li><li>MS PowerPoint</li>
+            </ul>
+          </div>
+          <div class="skill-row">
+            <h3>People skills</h3>
+            <ul class="chips">
+              <li>Public speaking</li><li>Anchoring</li><li>Event management</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 4. FEATURED PROJECTS ===== -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="wrap">
+        <h2 id="projects-title">Featured projects</h2>
+        <p class="section-lead">
+          Two projects I’m working on. Links marked as placeholders will show a
+          reminder until you add your real URLs.
+        </p>
+
+        <div class="project-grid">
+
+          <!-- PROJECT 1 -->
+          <article class="project">
+            <h3>AI Personal Finance Advisor</h3>
+            <p class="project-meta">Team college project</p>
+            <p>
+              A finance management and expense analysis system. It starts with
+              income and expense tracking and a dashboard, with AI features
+              such as auto-categorisation and spending prediction planned next.
+            </p>
+            <ul class="chips chips-small" aria-label="Technologies">
+              <li>React</li><li>Java</li><li>Spring Boot</li><li>MySQL</li><li>Python</li>
+            </ul>
+            <div class="project-links">
+              <!-- TODO: replace href="#" with your real GitHub repo URL and remove data-placeholder -->
+              <a href="#" data-placeholder="GitHub link for AI Personal Finance Advisor">GitHub</a>
+              <!-- TODO: replace href="#" with your live demo URL and remove data-placeholder -->
+              <a href="#" data-placeholder="Live demo link for AI Personal Finance Advisor">Live demo</a>
+            </div>
+          </article>
+
+          <!-- PROJECT 2 -->
+          <article class="project">
+            <h3>VeriLens AI</h3>
+            <p class="project-meta">Generative AI coursework</p>
+            <p>
+              A fake news detection project that uses machine learning to help
+              judge whether a news item looks reliable.
+            </p>
+            <ul class="chips chips-small" aria-label="Technologies">
+              <li>Python</li><li>Machine learning</li>
+            </ul>
+            <div class="project-links">
+              <!-- TODO: replace href="#" with your real GitHub repo URL and remove data-placeholder -->
+              <a href="#" data-placeholder="GitHub link for VeriLens AI">GitHub</a>
+              <!-- TODO: replace href="#" with your live demo URL and remove data-placeholder -->
+              <a href="#" data-placeholder="Live demo link for VeriLens AI">Live demo</a>
+            </div>
+          </article>
+
+          <!-- PLACEHOLDER: copy this block for your next project -->
+          <article class="project project-empty">
+            <h3>Your next project</h3>
+            <p>
+              Copy one of the project blocks in <code>index.html</code> and fill
+              in the title, description, tech stack and links.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 5. EDUCATION ===== -->
+    <section class="section section-alt" id="education" aria-labelledby="education-title">
+      <div class="wrap">
+        <h2 id="education-title">Education</h2>
+
+        <!-- A timeline is appropriate here: education really is a sequence -->
+        <ol class="timeline">
+          <li class="entry">
+            <p class="entry-date">2024 – 2028</p>
+            <div class="entry-body">
+              <h3>B.Tech, Computer Science and Engineering (Cyber Security)</h3>
+              <p>Greater Noida Institute of Technology (GNIOT). Currently in third year.</p>
+            </div>
+          </li>
+          <li class="entry">
+            <p class="entry-date">2024</p>
+            <div class="entry-body">
+              <h3>Class 12</h3>
+              <p>Ramjas School</p>
+            </div>
+          </li>
+          <li class="entry">
+            <p class="entry-date">Earlier</p>
+            <div class="entry-body">
+              <h3>Class 10 (CBSE)</h3>
+              <p>St. Columba School</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== 6. EXPERIENCE AND CREATIVE WORK ===== -->
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <div class="wrap">
+        <h2 id="experience-title">Experience and creative work</h2>
+        <p class="section-lead">Programs I’ve completed and events I’ve been part of.</p>
+
+        <h3 class="group-title">Programs and certifications</h3>
+        <ul class="timeline">
+          <li class="entry">
+            <p class="entry-date">Jul – Sep 2026</p>
+            <div class="entry-body">
+              <!-- EDIT: check the wording matches your certificate exactly -->
+              <h3>IBM Virtual Internship</h3>
+              <p>Completed through FSP, in Generative AI. Certificate issued 25 Sep 2026.</p>
+            </div>
+          </li>
+          <li class="entry">
+            <p class="entry-date">Mar 2026</p>
+            <div class="entry-body">
+              <h3>TCS Cybersecurity Analyst Job Simulation</h3>
+              <p>
+                Completed on Forage. Covered identity and access management
+                (IAM) fundamentals, strategy, custom solutions and platform integration.
+              </p>
+            </div>
+          </li>
+        </ul>
+
+        <h3 class="group-title">Events and stage work</h3>
+        <ul class="timeline">
+          <li class="entry">
+            <p class="entry-date">2026</p>
+            <div class="entry-body">
+              <h3>Anchor, ITS Hackathon</h3>
+              <p>Hosted the hackathon on stage.</p>
+            </div>
+          </li>
+          <li class="entry">
+            <p class="entry-date">2026</p>
+            <div class="entry-body">
+              <h3>Participant, IIT Delhi Tech Fest</h3>
+              <p>Took part in the tech fest.</p>
+            </div>
+          </li>
+          <li class="entry">
+            <p class="entry-date">Attended</p>
+            <div class="entry-body">
+              <h3>AVPN conference and Bharat Mandapam</h3>
+              <p>Attended both events.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== 7. CONTACT ===== -->
+    <section class="section section-alt" id="contact" aria-labelledby="contact-title">
+      <div class="wrap contact-grid">
+        <div class="contact-info">
+          <h2 id="contact-title">Contact</h2>
+          <p class="section-lead">
+            Have an internship, project or event in mind? Send me a message.
+          </p>
+
+          <p class="contact-email">
+            <a href="mailto:rishi208712@gmail.com">rishi208712@gmail.com</a>
+          </p>
+          <button class="btn btn-ghost btn-small" type="button" id="copy-email">Copy email</button>
+
+          <ul class="social-links" aria-label="Social links">
+            <!-- TODO: add your real profile URLs and remove data-placeholder -->
+            <li><a href="#" data-placeholder="LinkedIn profile link">LinkedIn</a></li>
+            <li><a href="#" data-placeholder="GitHub profile link">GitHub</a></li>
+          </ul>
+        </div>
+
+        <!--
+          No backend needed: on submit, script.js opens your email app with the
+          message already filled in (a mailto: link).
+        -->
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="field">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+            <p class="error" id="name-error" role="alert"></p>
+          </div>
+          <div class="field">
+            <label for="email">Your email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+            <p class="error" id="email-error" role="alert"></p>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <p class="error" id="message-error" role="alert"></p>
+          </div>
+          <button class="btn btn-primary" type="submit">Send message</button>
+          <p class="form-status" id="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>&copy; <span id="year">2026</span> Rishi Bhatia. Built with HTML, CSS and JavaScript.</p>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <!-- Small message bar for placeholder links and copy confirmation -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
